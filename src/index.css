@@ -6,7 +6,7 @@ body {
   ol, ul {
     padding-left: 30px;
   }
-  
+
   .board-row:after {
     clear: both;
     content: "";
@@ -29,7 +29,8 @@ body {
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 134px;
+
   }
   
   .square:focus {
@@ -49,7 +50,15 @@ body {
     margin-left: 20px;
   }
 
- .show_graffiti{ 
+ .show_graffiti:after
+ {
+    content: "";
+    height: 100%; 
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
     background-image: url("/assets/confetti.gif");
-    background-color: #cccccc;
+    
  }

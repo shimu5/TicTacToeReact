@@ -1,4 +1,9 @@
+###	App: Bingo with React
+#### author: Shamima Akhter.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To install the library files from package.json 
+### npm installl
 
 ## Available Scripts
 
